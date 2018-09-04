@@ -10,19 +10,19 @@ permissions:
   children:
    minereset.command:
     default: op
-    description: Use MineReset commands
+    description:
     children:
       minereset.command.about:
-        description: Read the about text
+        description:
       minereset.command.report:
-        description: Generate github issues
+        description:
       minereset.command.create:
-        description: Add new Mines
+        description:
       minereset.command.set:
-        description: Set existing mines
+        description:
       minereset.command.reset:
-        description: Reset mines
+        description:
       minereset.command.destroy:
-        description: Remove mines
+        description:
       minereset.command.resetall:
-        description: Reset all mines
+        description:
